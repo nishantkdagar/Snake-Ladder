@@ -7,7 +7,7 @@ public class SnakeAndLadder {
         int Player_Position = 0;
         Random rm = new Random();
         int Dice_Throw = rm.nextInt(7);
-        int Move = rm.nextInt(2);
+        int Move = rm.nextInt(3);
         switch (Move){
             case ladder:
                 Player_Position = Player_Position + Dice_Throw;
