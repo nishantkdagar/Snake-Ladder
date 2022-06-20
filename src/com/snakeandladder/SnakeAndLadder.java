@@ -7,7 +7,7 @@ public class SnakeAndLadder {
         int Player_Position = 0;
         Random rm = new Random();
 
-        while (Player_Position <= 100) {
+        while (Player_Position < 100) {
             int Dice_Throw = rm.nextInt(6) + 1;
             int Move = rm.nextInt(3);
 
